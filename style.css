@@ -1,0 +1,116 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+}
+
+body {
+    background-color: grey;
+}
+
+.container-navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.li-navbar {
+    background-color: none;
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+}
+
+.li-navbar:hover {
+    background-color: grey;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    text-decoration: none;
+    color: white;
+}
+
+.container-content {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.a-content {
+    background-color: none;
+    display: flex;
+    width: 200px;
+    height: 280px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.a-content2 {
+    background-color: none;
+    display: flex;
+    width: 400px;
+    height: 280px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.a-content3 {
+    background-color: none;
+    display: flex;
+    width: 320px;
+    height: 290px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.img-content {
+    width: 100%;
+    height: 95%;
+    border-radius: 10px;
+}
+
+.img-content2 {
+    width: 100%;
+    height: 100%;
+}
+
+.img-content3 {
+    width: 100%;
+    height: 100%;
+}
+
+.p-content {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-footer {
+    background-color: #333;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
